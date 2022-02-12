@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.drz-header-wrap {
+	width: 100%;
+	font-size: 11px;
+}
+.drz-first-header-wrap {
+	background: rgba( 158,158,158,.2 );
+}
+.drz-first-header-content {
+    margin-left: 20%;
+    padding: 6px;
+}
+.drz-first-header-content a {
+	text-decoration: none;
+	margin-left: 20px;
+	color: #212121;
+}
+.drz-first-header-content a:first-child {
+	color: #f85606;
+}
+.drz-first-header-content a:hover {
+	color: #f85606;
+    text-decoration: underline;
+    opacity: .8;
+}
+.drz-second-header-content {
+	height: 75px;
+	position: relative;
+}
+.drz-s-h-content-wrap {
+	height: 60%;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+.drz-s-h-content-wrap .daraz-logo,
+.drz-s-h-content-wrap .drz-search-bar,
+.drz-s-h-content-wrap .drz-search-icon,
+.drz-s-h-content-wrap .drz-cart-icon,
+.drz-s-h-content-wrap .drz-side-logo {
+	float: left;
+	height: 100%;
+}
+.daraz-logo {
+	margin-left: 3%;
+	width: 135px;
+}
+.drz-search-bar {
+	margin-left: 5%;
+    width: 50%;
+    background: #f5f5f5;
+    border: unset;
+    text-indent:20px;
+}
+.drz-s-h-content-wrap .drz-search-icon {
+	font-size: 22px;
+    width: 50px;
+    background: #f57224;
+    padding: 10px 14px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+.drz-s-h-content-wrap .drz-cart-icon {
+	font-size: 22px;
+    width: 50px;
+    padding: 10px 12px;
+    color: #000000;
+    font-weight: lighter;
+    margin-left: 2%;
+}
+
+/* Slider section css */
+.drz-slider-section {
+	height: 344px;
+	width: 100%;
+	position: relative;
+}
+.drz-slide-menu-section {
+	width: 18.5%;
+	height: 100%;
+	float: left;
+}
+.drz-slider-wrap {
+	width: 81.5%;
+	height: 100%;
+	float: left;
+}
+.drz-slider-wrap .drz-slider-images {
+	height: 100%;
+	width: 100%;
+}
+.drz-slider-dots-wrap {
+	position: absolute;
+    left: 50%;
+    top: 92%;
+    transform: translate(-50%, -50%);
+}
+.drz-slider-dots-wrap .drz-slider-dots {
+	height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 6px;
+    cursor: pointer;
+}
+.drz-slide-menu-section .drz-slider-color {
+	width: 16%;
+	height: 100%;
+	float: left;
+	background: #F15924;
+}
+.drz-slide-menu-section .drz-slider-down-menu {
+	width: 84%;
+	height: 100%;
+	float: left;
+}
+.drz-slider-down-menu ul li {
+	list-style: none;
+    padding: 11px 0 2px 10px;
+    font-size: 13px;
+    color: #757575;
+    cursor: pointer;
+}
+.drz-slider-down-menu ul li:hover {
+	color: #1a9cb7;
+}
+/* End slider section css */
