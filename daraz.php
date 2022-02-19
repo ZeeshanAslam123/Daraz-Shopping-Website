@@ -9,10 +9,13 @@
 	<title><?php echo _( 'Daraz' ); ?></title>
 
 	<?php 
-	define( 'DRZ_ASSETS_URL', 'assets/' );
-	define( 'DRZ_INCLUDES_URL', 'includes/' );
-	define( 'DRZ_IMAGES_URL', 'assets/images/' );
-	define( 'DRZ_SLIDER_IMAGES_URL', 'assets/images/slider-images/' );
+	define( 'DRZ_DIR', substr( dirname(__FILE__), strlen( $_SERVER['DOCUMENT_ROOT'] ) ).'/' );
+	define( 'DRZ_ASSETS_URL', DRZ_DIR.'assets/' );
+	define( 'DRZ_INCLUDES_URL', DRZ_DIR.'includes/' );
+	define( 'DRZ_IMAGES_URL', DRZ_ASSETS_URL.'images/' );
+	define( 'DRZ_SLIDER_IMAGES_URL', DRZ_IMAGES_URL.'slider-images/' );
+	define( 'DRZ_PRODUCT_URL', DRZ_IMAGES_URL.'products/' );
+	define( 'DRZ_ELECTRONICS_URL', DRZ_PRODUCT_URL.'Electronics/' );
 
 	require 'templates-includes.php';
 	?>
@@ -21,12 +24,16 @@
 <body>
 
 	<!-- Create Header -->
-	<?php echo get_header_content_html(); ?>
+	<?php get_header_content_html(); ?>
 	<!-- End create Header -->
 
 	<!-- Start Slider section -->
-	<?php echo get_slider_content_html(); ?>
+	<?php get_slider_content_html(); ?>
 	<!-- End Slider section -->
+
+	<!-- Start product section -->
+	<?php get_products_html_content(); ?>
+	<!-- End product section -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/frontend.js"></script>
