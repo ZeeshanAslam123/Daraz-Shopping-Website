@@ -24,10 +24,15 @@ function get_products_html_content() {
 				$product_currency = $product_data['product_currency'];
 				$product_price = $product_data['product_price'];
 				$product_discount = $product_data['product_discount'];
-
 				$selling_price = $product_price - ( $product_price * ( $product_discount / 100) );
+
+				$single_product_url = DRZ_DIR.'single-product.php?product_id='.$product_id.'
+				&product_name='.$product_name.'&product_image='.$product_image.'
+				&product_price='.$product_price.'&product_discount='.$product_discount.'
+				&selling_price='.$selling_price.' ';
+
 				?>
-				<a href="#" class="drz-product-link">
+				<a href="<?php echo $single_product_url; ?>" target="_blank" class="drz-product-link">
 			    	<div class="drz-product-box">
 			    		<div class="drz-product-image">
 			    			<img src="<?php echo $product_image; ?>">
