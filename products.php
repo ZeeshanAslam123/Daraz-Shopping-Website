@@ -29,7 +29,7 @@ function get_products_html_content() {
 				$single_product_url = DRZ_DIR.'single-product.php?product_id='.$product_id.'
 				&product_name='.$product_name.'&product_image='.$product_image.'
 				&product_price='.$product_price.'&product_discount='.$product_discount.'
-				&selling_price='.$selling_price.' ';
+				&selling_price='.$selling_price.'&product_currency='.$product_currency.' ';
 
 				?>
 				<a href="<?php echo $single_product_url; ?>" target="_blank" class="drz-product-link">
@@ -75,7 +75,7 @@ function get_electronics_product_data() {
 		101		=>	[ 
 			'product_name' 		=> 'Flash Drive OTG',
 			'product_image' 	=> DRZ_ELECTRONICS_URL.'flash-drive-otg.jpg',
-			'product_currency'	=> 'RS.',
+			'product_currency'	=> 'Rs.',
 			'product_price'		=> 557,
 			'product_discount'	=> 50
 
@@ -83,77 +83,77 @@ function get_electronics_product_data() {
 		102		=> 	[ 
 			'product_name' 		=> 'Head Phone',
 			'product_image' 	=> DRZ_ELECTRONICS_URL.'headphone.jpg',
-			'product_currency'	=> 'RS.',
+			'product_currency'	=> 'Rs.',
 			'product_price'		=> 1000,
 			'product_discount'	=> 70
 		],
 		103		=> 	[ 
 			'product_name' 		=> 'Power Bank',
 			'product_image' 	=> DRZ_ELECTRONICS_URL.'powerbank.jpg',
-			'product_currency'	=> 'RS.',
+			'product_currency'	=> 'Rs.',
 			'product_price'		=> 800,
 			'product_discount'	=> 70
 		],
 		104		=> 	[ 
 			'product_name' 		=> 'Smart Watch',
 			'product_image' 	=> DRZ_ELECTRONICS_URL.'smart-watch.jpg',
-			'product_currency'	=> 'RS.',
+			'product_currency'	=> 'Rs.',
 			'product_price'		=> 300,
 			'product_discount'	=> 70
 		],
 		105		=> 	[ 
 			'product_name' 		=> 'USB Charger',
 			'product_image' 	=> DRZ_ELECTRONICS_URL.'usb-charger.jpg',
-			'product_currency'	=> 'RS.',
+			'product_currency'	=> 'Rs.',
 			'product_price'		=> 200,
 			'product_discount'	=> 70
 		],
 		106		=> 	[ 
 			'product_name' 		=> 'USB',
 			'product_image' 	=> DRZ_ELECTRONICS_URL.'usb.jpg',
-			'product_currency'	=> 'RS.',
+			'product_currency'	=> 'Rs.',
 			'product_price'		=> 600,
 			'product_discount'	=> 70
 		],
 		107		=> 	[ 
 			'product_name' 		=> 'Fast Brush',
 			'product_image' 	=> DRZ_ELECTRONICS_URL.'fast-brush.jpg',
-			'product_currency'	=> 'RS.',
+			'product_currency'	=> 'Rs.',
 			'product_price'		=> 1200,
 			'product_discount'	=> 70
 		],
 		108		=> 	[ 
 			'product_name' 		=> 'Mini Vaccum',
 			'product_image' 	=> DRZ_ELECTRONICS_URL.'mini-vaccum.jpg',
-			'product_currency'	=> 'RS.',
+			'product_currency'	=> 'Rs.',
 			'product_price'		=> 1800,
 			'product_discount'	=> 70
 		],
 		109		=> 	[ 
 			'product_name' 		=> 'Washing Machine',
 			'product_image' 	=> DRZ_ELECTRONICS_URL.'washing-machine.jpg',
-			'product_currency'	=> 'RS.',
+			'product_currency'	=> 'Rs.',
 			'product_price'		=> 2000,
 			'product_discount'	=> 70
 		],
 		110		=> 	[ 
 			'product_name' 		=> 'Weight Machine',
 			'product_image' 	=> DRZ_ELECTRONICS_URL.'weight-machine.jpg',
-			'product_currency'	=> 'RS.',
+			'product_currency'	=> 'Rs.',
 			'product_price'		=> 3000,
 			'product_discount'	=> 70
 		],
 		111		=> 	[ 
 			'product_name' 		=> 'Mouse',
 			'product_image' 	=> DRZ_ELECTRONICS_URL.'mouse.jpg',
-			'product_currency'	=> 'RS.',
+			'product_currency'	=> 'Rs.',
 			'product_price'		=> 500,
 			'product_discount'	=> 70
 		],
 		112		=> 	[ 
 			'product_name' 		=> 'Sealine Strip',
 			'product_image' 	=> DRZ_ELECTRONICS_URL.'sealing-strip.jpg',
-			'product_currency'	=> 'RS.',
+			'product_currency'	=> 'Rs.',
 			'product_price'		=> 750,
 			'product_discount'	=> 70
 		]

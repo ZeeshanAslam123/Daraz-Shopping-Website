@@ -213,3 +213,180 @@
 	color: #212121;
     margin-left: 4px;
 }
+
+/* Single product style */
+.drz-single-product-wrap {
+	width: 100%;
+	margin-top: 4%;
+}
+.drz-single-product-wrap .drz-single-product-image {
+	width: 30%;
+	float: left;
+}
+.drz-single-product-wrap .drz-product-info {
+	width: 40%;
+	float: left;
+	padding: 2%;
+}
+.drz-single-product-wrap .drz-product-detail {
+	width: 30%;
+	float: left;
+	padding: 3% 0;
+}
+.drz-clear-both {
+	clear: both;
+}
+.drz-main-image {
+	height: 300px;
+    width: 84%;
+    margin-left: 16%;
+}
+.drz-main-image img {
+	height: 100%;
+	width: 100%;
+}
+.drz-other-images {
+	width: 100%;
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 8%;
+}
+.drz-other-images img {
+	width: 14%;
+}
+.single-product-title {
+	padding-bottom: 20px;
+}
+.single-product-price {
+	margin-bottom: 4px;
+    font-size: 18px;
+    color: #f85606;
+    letter-spacing: -.56px;
+}
+.drz-cart-button {
+	padding-top: 6%;
+}
+.single-flash-sell {
+	padding-bottom: 4%;
+}
+.single-flash-sell img {
+	width: 100%;
+}
+.drz-cart-button .drz-buy-now-btn,
+.drz-cart-button .drz-add-to-cart {
+	padding: 3% 16%;
+    background: #26abd4;
+    border: unset;
+    color: #ffffff;
+    cursor: pointer;
+}
+.drz-cart-button .drz-add-to-cart {
+	background: #f57224;
+}
+.drz-quantity {
+	padding-top: 6%;
+}
+.drz-quantity-tile {
+	width: 22%;
+	float: left;
+}
+.drz-quantity span {
+	margin-left: 8%;
+	cursor: pointer;
+}
+.drz-delivery-text {
+    font-size: 12px;
+    color: #757575;
+    font-weight: 500;
+}
+.drz-delivery-days {
+	width: 80%;
+	float: left;
+}
+.drz-delivery-price {
+	width: 10%;
+	float: left;
+}
+.drz-delivery-text,
+.drz-delivery-address,
+.drz-delivery-options {
+	padding-bottom: 4%;
+}
+.drz-shipping {
+	padding: 6% 0;
+}
+.drz-shipping-text,
+.drz-shipping-accessory {
+	width: 80%;
+    margin: auto;
+    font-size: 14px;
+}
+.drz-shipping-accessory {
+	color: #1a9cb7;
+}
+.drz-home-text,
+.fa-map-marker {
+	color: #666363;
+}
+.fa-book {
+	margin-right: 4%;	
+}
+.drz-days-text {
+	font-size: 12px;
+}
+.delivery-available {
+	color: #666363;
+}
+.delivery-available-text {
+	margin-left: 4%;
+    font-size: 14px;
+    color: #222222;
+}
+.drz-services {
+	padding: 6% 0;
+}
+.drz-services-text {
+	font-size: 12px;
+    color: #757575;
+    font-weight: 500;
+}
+.drz-services-days {
+	padding-top: 4%;
+	color: #666363;
+}
+.fa-clock-o,
+.fa-exclamation-triangle {
+	margin-right: 4%;
+}
+.drz-applicable-text {
+	margin-left: 8%;
+	font-size: 12px;
+}
+.drz-other-percentages {
+	width: 32%;
+    float: left;
+}
+.drz-other-percentages .rating {
+	margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    height: 28px;
+    overflow: hidden;
+    color: #757575;
+}
+.drz-other-percentages .percentage {
+	color: #212121;
+}
+.drz-product-detail-info {
+	width: 100%;
+	margin-bottom: 5%;
+}
+.drz-product-detail-text {
+	width: 90%;
+	margin: auto;
+}
+.drz-product-detail-list {
+	margin: 4% 0;
+	width: 50%;
+	float: left;
+}
