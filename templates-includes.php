@@ -3,10 +3,10 @@
  * Includes all Templates Files
  */
 function drz_includes_required_files() {
-
-	require 'header.php';
-    require 'slider-section.php';
-    require 'products.php';
-    require 'includes/functions.php';
+    
+    require DRZ_MAIN.'header.php';
+    require DRZ_MAIN.'slider-section.php';
+    require DRZ_MAIN.'products.php';
+    require DRZ_MAIN.'includes/functions.php';
 }
 drz_includes_required_files();

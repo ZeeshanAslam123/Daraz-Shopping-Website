@@ -9,6 +9,7 @@
 	<title><?php echo _( 'Daraz' ); ?></title>
 
 	<?php 
+	define( 'DRZ_MAIN', dirname(__FILE__).'/' );
 	define( 'DRZ_DIR', substr( dirname(__FILE__), strlen( $_SERVER['DOCUMENT_ROOT'] ) ).'/' );
 	define( 'DRZ_ASSETS_URL', DRZ_DIR.'assets/' );
 	define( 'DRZ_INCLUDES_URL', DRZ_DIR.'includes/' );
@@ -17,7 +18,7 @@
 	define( 'DRZ_PRODUCT_URL', DRZ_IMAGES_URL.'products/' );
 	define( 'DRZ_ELECTRONICS_URL', DRZ_PRODUCT_URL.'Electronics/' );
 
-	require 'templates-includes.php';
+	require DRZ_MAIN.'templates-includes.php';
 	?>
 
 </head>
