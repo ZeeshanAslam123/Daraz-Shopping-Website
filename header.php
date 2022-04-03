@@ -18,7 +18,7 @@ function get_header_content_html() {
 					<a href="#">CUSTOMER CARE</a>
 					<a href="#">TRACK MY ORDER</a>
 					<a href="#">LOGIN</a>
-					<a href="#">SIGNUP</a>
+					<a href="<?php echo DRZ_DIR.'sign-up.php'; ?>">SIGNUP</a>
 					<a href="#">زبان تبدیل کریں</a>
 				</div>
 			</div>

@@ -1,8 +1,5 @@
 <?php 
 require 'daraz-styles.php';
-?>
-
-<?php 
 
 $image_url = isset( $_GET['product_image'] ) ? $_GET['product_image'] : '';
 $product_title = isset( $_GET['product_name'] ) ? $_GET['product_name'] : '';
